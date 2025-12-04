@@ -1,0 +1,25 @@
+{
+  "functions": {
+    "source": "functions"
+  },
+  "hosting": {
+    "site": "aniamtion-reference",
+    "public": ".next",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "apphosting": {
+          "backendId": "next-server"
+        }
+      }
+    ]
+  },
+  "firestore": {
+    "rules": "firestore.rules"
+  }
+}
