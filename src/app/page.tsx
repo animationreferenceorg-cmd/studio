@@ -105,7 +105,7 @@ export default function HomePage() {
         <VideoRow title="Popular Now" videos={popularVideos.slice(1)} />
         <VideoRow title="Now Playing" videos={nowPlayingVideos} />
         <VideoRow title="Top Rated" videos={topRatedVideos} />
-        <VideoGrid title="All Videos" videos={randomizedVideos} />
+        <VideoGrid title="All The Videos" videos={randomizedVideos} />
       </div>
     </main>
   );
