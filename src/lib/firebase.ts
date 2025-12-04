@@ -15,8 +15,8 @@ const firebaseConfig: FirebaseOptions = {
   projectId: "aniamtion-reference",
   storageBucket: "aniamtion-reference.firebasestorage.app",
   messagingSenderId: "308612236683",
-  appId: "1:308612236683:web:5a37e40366b730a8389b8e",
-  measurementId: "G-PYMZZ2MMHJ"
+  appId: "1:308612236683:web:57e20519a50a52c6389b8e",
+  measurementId: "G-Y6GF0EQS91"
 };
 
 // Function to check if all required Firebase config values are present
